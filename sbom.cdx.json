@@ -1,0 +1,256 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:883f2b1a-05ec-5930-9760-4bed7dd7caa7",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-07T08:33:19Z",
+    "component": {
+      "type": "application",
+      "name": "EVALS",
+      "version": "a2cba60c2370",
+      "bom-ref": "pkg:generic/anticloud/EVALS@a2cba60c2370",
+      "purl": "pkg:generic/anticloud/EVALS@a2cba60c2370",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "a2cba60c237092eb48e3ace70913a8e5806c5ab4"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/anticloud-evals.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "anthropic",
+      "version": ">=1.0.0",
+      "purl": "pkg:pypi/anthropic@1.0.0",
+      "bom-ref": "pypi/anthropic@>=1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=2.1.0",
+      "purl": "pkg:pypi/numpy@2.1.0",
+      "bom-ref": "pypi/numpy@>=2.1.0"
+    },
+    {
+      "type": "library",
+      "name": "math-verify",
+      "version": ">=0.8.0",
+      "purl": "pkg:pypi/math-verify@0.8.0",
+      "bom-ref": "pypi/math-verify@>=0.8.0"
+    },
+    {
+      "type": "library",
+      "name": "openai",
+      "version": ">=2.54.0",
+      "purl": "pkg:pypi/openai@2.54.0",
+      "bom-ref": "pypi/openai@>=2.54.0"
+    },
+    {
+      "type": "library",
+      "name": "prime-tunnel",
+      "version": ">=0.1.8",
+      "purl": "pkg:pypi/prime-tunnel@0.1.8",
+      "bom-ref": "pypi/prime-tunnel@>=0.1.8"
+    },
+    {
+      "type": "library",
+      "name": "prime-sandboxes",
+      "version": ">=0.4.1",
+      "purl": "pkg:pypi/prime-sandboxes@0.4.1",
+      "bom-ref": "pypi/prime-sandboxes@>=0.4.1"
+    },
+    {
+      "type": "library",
+      "name": "prime-runs",
+      "version": ">=0.1.3",
+      "purl": "pkg:pypi/prime-runs@0.1.3",
+      "bom-ref": "pypi/prime-runs@>=0.1.3"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": ">=2.12.3",
+      "purl": "pkg:pypi/pydantic@2.12.3",
+      "bom-ref": "pypi/pydantic@>=2.12.3"
+    },
+    {
+      "type": "library",
+      "name": "rich",
+      "version": ">=11.0.0",
+      "purl": "pkg:pypi/rich@11.0.0",
+      "bom-ref": "pypi/rich@>=11.0.0"
+    },
+    {
+      "type": "library",
+      "name": "tenacity",
+      "version": ">=8.5.0",
+      "purl": "pkg:pypi/tenacity@8.5.0",
+      "bom-ref": "pypi/tenacity@>=8.5.0"
+    },
+    {
+      "type": "library",
+      "name": "gepa",
+      "version": ">=0.0.6",
+      "purl": "pkg:pypi/gepa@0.0.6",
+      "bom-ref": "pypi/gepa@>=0.0.6"
+    },
+    {
+      "type": "library",
+      "name": "pyzmq",
+      "version": ">=27.1.0",
+      "purl": "pkg:pypi/pyzmq@27.1.0",
+      "bom-ref": "pypi/pyzmq@>=27.1.0"
+    },
+    {
+      "type": "library",
+      "name": "msgpack",
+      "version": ">=1.1.2",
+      "purl": "pkg:pypi/msgpack@1.1.2",
+      "bom-ref": "pypi/msgpack@>=1.1.2"
+    },
+    {
+      "type": "library",
+      "name": "httpx",
+      "version": ">=0.27.0",
+      "purl": "pkg:pypi/httpx@0.27.0",
+      "bom-ref": "pypi/httpx@>=0.27.0"
+    },
+    {
+      "type": "library",
+      "name": "httpx2",
+      "version": ">=2.12.0",
+      "purl": "pkg:pypi/httpx2@2.12.0",
+      "bom-ref": "pypi/httpx2@>=2.12.0"
+    },
+    {
+      "type": "library",
+      "name": "h11",
+      "version": ">=0.16.0",
+      "purl": "pkg:pypi/h11@0.16.0",
+      "bom-ref": "pypi/h11@>=0.16.0"
+    },
+    {
+      "type": "library",
+      "name": "uvicorn",
+      "version": ">=0.52.0",
+      "purl": "pkg:pypi/uvicorn@0.52.0",
+      "bom-ref": "pypi/uvicorn@>=0.52.0"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp",
+      "version": ">=3.14.1",
+      "purl": "pkg:pypi/aiohttp@3.14.1",
+      "bom-ref": "pypi/aiohttp@>=3.14.1"
+    },
+    {
+      "type": "library",
+      "name": "verifiers",
+      "version": "unspecified",
+      "purl": "pkg:pypi/verifiers",
+      "bom-ref": "pypi/verifiers@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "chromadb",
+      "version": ">=0.4.13",
+      "purl": "pkg:pypi/chromadb@0.4.13",
+      "bom-ref": "pypi/chromadb@>=0.4.13"
+    },
+    {
+      "type": "library",
+      "name": "datasets",
+      "version": "unspecified",
+      "purl": "pkg:pypi/datasets",
+      "bom-ref": "pypi/datasets@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pillow",
+      "version": ">=12.3.0",
+      "purl": "pkg:pypi/pillow@12.3.0",
+      "bom-ref": "pypi/pillow@>=12.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@browserbasehq/stagehand",
+      "version": "^3.0.5",
+      "purl": "pkg:npm/@browserbasehq/stagehand@^3.0.5",
+      "bom-ref": "npm/@browserbasehq/stagehand@^3.0.5"
+    },
+    {
+      "type": "library",
+      "name": "fastify",
+      "version": "^5.0.0",
+      "purl": "pkg:npm/fastify@^5.0.0",
+      "bom-ref": "npm/fastify@^5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "dotenv",
+      "version": "^16.4.5",
+      "purl": "pkg:npm/dotenv@^16.4.5",
+      "bom-ref": "npm/dotenv@^16.4.5"
+    },
+    {
+      "type": "library",
+      "name": "deepmerge",
+      "version": "^4.3.1",
+      "purl": "pkg:npm/deepmerge@^4.3.1",
+      "bom-ref": "npm/deepmerge@^4.3.1"
+    },
+    {
+      "type": "library",
+      "name": "zod",
+      "version": "^3.25.76",
+      "purl": "pkg:npm/zod@^3.25.76",
+      "bom-ref": "npm/zod@^3.25.76"
+    },
+    {
+      "type": "library",
+      "name": "esbuild",
+      "version": "^0.27.2",
+      "purl": "pkg:npm/esbuild@^0.27.2",
+      "bom-ref": "npm/esbuild@^0.27.2"
+    },
+    {
+      "type": "library",
+      "name": "postject",
+      "version": "^1.0.0-alpha.6",
+      "purl": "pkg:npm/postject@^1.0.0-alpha.6",
+      "bom-ref": "npm/postject@^1.0.0-alpha.6"
+    },
+    {
+      "type": "library",
+      "name": "tsx",
+      "version": "^4.10.5",
+      "purl": "pkg:npm/tsx@^4.10.5",
+      "bom-ref": "npm/tsx@^4.10.5"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.2.2",
+      "purl": "pkg:npm/typescript@^5.2.2",
+      "bom-ref": "npm/typescript@^5.2.2"
+    }
+  ]
+}
