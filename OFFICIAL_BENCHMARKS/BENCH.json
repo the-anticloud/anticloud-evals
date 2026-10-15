@@ -1,0 +1,1231 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "EVALS",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ACADEMIA_RD\\EVALS\\UPSTREAM_CLONE",
+    "git": {
+      "head": "",
+      "url": "https://github.com/",
+      "branch": "master",
+      "committed_at": "2026-09-29T11:06:59+04:00"
+    }
+  },
+  "metrics": {
+    "files_total": 360,
+    "source_files_scanned": 270,
+    "lines_of_code": 42644,
+    "languages": {
+      ".py": 266,
+      ".toml": 33,
+      ".md": 26,
+      ".sh": 6,
+      ".ts": 6,
+      ".json": 5,
+      "(none)": 3,
+      ".yaml": 3,
+      ".txt": 3,
+      ".mjs": 2,
+      ".in": 1,
+      ".lock": 1,
+      ".jsonl": 1,
+      ".example": 1,
+      ".build": 1
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 50,
+    "unique": 31,
+    "by_ecosystem": {
+      "npm": 9,
+      "pypi": 41
+    },
+    "list": [
+      {
+        "ecosystem": "pypi",
+        "name": "anthropic",
+        "version": ">=1.0.0",
+        "source_file": "pyproject.toml",
+        "raw": "anthropic>=1.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "numpy",
+        "version": ">=2.1.0",
+        "source_file": "pyproject.toml",
+        "raw": "numpy>=2.1.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "math-verify",
+        "version": ">=0.8.0",
+        "source_file": "pyproject.toml",
+        "raw": "math-verify>=0.8.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "openai",
+        "version": ">=2.54.0",
+        "source_file": "pyproject.toml",
+        "raw": "openai>=2.54.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "prime-tunnel",
+        "version": ">=0.1.8",
+        "source_file": "pyproject.toml",
+        "raw": "prime-tunnel>=0.1.8"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "prime-sandboxes",
+        "version": ">=0.4.1",
+        "source_file": "pyproject.toml",
+        "raw": "prime-sandboxes>=0.4.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "prime-runs",
+        "version": ">=0.1.3",
+        "source_file": "pyproject.toml",
+        "raw": "prime-runs>=0.1.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pydantic",
+        "version": ">=2.12.3",
+        "source_file": "pyproject.toml",
+        "raw": "pydantic>=2.12.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "rich",
+        "version": ">=11.0.0",
+        "source_file": "pyproject.toml",
+        "raw": "rich>=11.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "tenacity",
+        "version": ">=8.5.0",
+        "source_file": "pyproject.toml",
+        "raw": "tenacity>=8.5.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "gepa",
+        "version": ">=0.0.6",
+        "source_file": "pyproject.toml",
+        "raw": "gepa>=0.0.6"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pyzmq",
+        "version": ">=27.1.0",
+        "source_file": "pyproject.toml",
+        "raw": "pyzmq>=27.1.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "msgpack",
+        "version": ">=1.1.2",
+        "source_file": "pyproject.toml",
+        "raw": "msgpack>=1.1.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "httpx",
+        "version": ">=0.27.0",
+        "source_file": "pyproject.toml",
+        "raw": "httpx>=0.27.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "httpx2",
+        "version": ">=2.12.0",
+        "source_file": "pyproject.toml",
+        "raw": "httpx2>=2.12.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "h11",
+        "version": ">=0.16.0",
+        "source_file": "pyproject.toml",
+        "raw": "h11>=0.16.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "uvicorn",
+        "version": ">=0.52.0",
+        "source_file": "pyproject.toml",
+        "raw": "uvicorn>=0.52.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "aiohttp",
+        "version": ">=3.14.1",
+        "source_file": "pyproject.toml",
+        "raw": "aiohttp>=3.14.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "tests/v1/fixtures/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/wiki_search/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "chromadb",
+        "version": ">=0.4.13",
+        "source_file": "environments/wiki_search/pyproject.toml",
+        "raw": "chromadb>=0.4.13"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "datasets",
+        "version": "",
+        "source_file": "environments/wiki_search/pyproject.toml",
+        "raw": "datasets"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/web_search_interception/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/scratchpad/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "datasets",
+        "version": "",
+        "source_file": "environments/reverse_text/pyproject.toml",
+        "raw": "datasets"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/proposer_solver/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/nemo_gym_weather/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/kuhn_poker/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/interception/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "datasets",
+        "version": "",
+        "source_file": "environments/gsm8k/pyproject.toml",
+        "raw": "datasets"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pillow",
+        "version": ">=12.3.0",
+        "source_file": "environments/grayscale_interception/pyproject.toml",
+        "raw": "pillow>=12.3.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/grayscale_interception/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/glossary/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/deepwiki/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/compact/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/color_codeword/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pillow",
+        "version": ">=11.0.0",
+        "source_file": "environments/color_codeword/pyproject.toml",
+        "raw": "pillow>=11.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/code_golf/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/bash_interception/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verifiers",
+        "version": "",
+        "source_file": "environments/alphabet_sort/pyproject.toml",
+        "raw": "verifiers"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "datasets",
+        "version": "",
+        "source_file": "environments/alphabet_sort/pyproject.toml",
+        "raw": "datasets"
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@browserbasehq/stagehand",
+        "version": "^3.0.5",
+        "source_file": "assets/templates/browserbase/cua/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fastify",
+        "version": "^5.0.0",
+        "source_file": "assets/templates/browserbase/cua/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "dotenv",
+        "version": "^16.4.5",
+        "source_file": "assets/templates/browserbase/cua/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "deepmerge",
+        "version": "^4.3.1",
+        "source_file": "assets/templates/browserbase/cua/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "zod",
+        "version": "^3.25.76",
+        "source_file": "assets/templates/browserbase/cua/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "esbuild",
+        "version": "^0.27.2",
+        "source_file": "assets/templates/browserbase/cua/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "postject",
+        "version": "^1.0.0-alpha.6",
+        "source_file": "assets/templates/browserbase/cua/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tsx",
+        "version": "^4.10.5",
+        "source_file": "assets/templates/browserbase/cua/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^5.2.2",
+        "source_file": "assets/templates/browserbase/cua/package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 33,
+    "files_with_findings": 29,
+    "severity": {
+      "high": 5,
+      "medium": 1,
+      "low": 27
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "verifiers/v1/harnesses/codex/harness.py",
+            "line": 209,
+            "cwe": "CWE-327",
+            "snippet": "suffix = hashlib.sha1(f\"{name}\\0{name}\\0\".encode()).hexdigest()[:12]"
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 4,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "verifiers/v1/runtimes/base.py",
+            "line": 378,
+            "cwe": "CWE-78",
+            "snippet": "\"t=$(mktemp) || exit 1; \""
+          },
+          {
+            "severity": "high",
+            "file": "verifiers/v1/interception/pool.py",
+            "line": 5,
+            "cwe": "CWE-95",
+            "snippet": "is rate-capped per API token \u2014 so one-tunnel-per-rollout caps how wide a remote eval (or env"
+          },
+          {
+            "severity": "high",
+            "file": "verifiers/v1/harnesses/terminus_2/program.py",
+            "line": 22,
+            "cwe": "CWE-95",
+            "snippet": "async def exec(\n        self,"
+          },
+          {
+            "severity": "high",
+            "file": "tests/v1/test_envs.py",
+            "line": 16,
+            "cwe": "CWE-95",
+            "snippet": "EVAL_TIMEOUT = 600  # 10 minutes for a capped eval (-n 1 -r 1)"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 8,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "verifiers/v1/utils/git.py",
+            "line": 6,
+            "cwe": "CWE-",
+            "snippet": "including edits to test files (intentional: they reveal reward hacking), and"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/serve/pool.py",
+            "line": 18,
+            "cwe": "CWE-",
+            "snippet": "broker dies. TODO: downscale idle workers, per-worker restart-on-death, stats/lag"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/runtimes/e2b.py",
+            "line": 195,
+            "cwe": "CWE-",
+            "snippet": "TODO(e2b): drop this once the SDK grows a bytes mode for command output; it rides"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/prime_agent/harness.py",
+            "line": 46,
+            "cwe": "CWE-",
+            "snippet": "download_dir=\"$(mktemp -d \"$VF_PRIME_AGENT_DIR/install.XXXXXX\")\""
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/codex/harness.py",
+            "line": 58,
+            "cwe": "CWE-",
+            "snippet": "APPENDS_SYSTEM_PROMPT = False  # TODO"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/clients/train.py",
+            "line": 129,
+            "cwe": "CWE-",
+            "snippet": "# TODO: we need a better way for renderers to expose this"
+          },
+          {
+            "severity": "low",
+            "file": "environments/proposer_solver/proposer_solver/taskset.py",
+            "line": 60,
+            "cwe": "CWE-",
+            "snippet": "unambiguous JSON escape (``\\\\\\\\``, ``\\\\\"``, ``\\\\/``, ``\\\\uXXXX``) \u2014 a math"
+          },
+          {
+            "severity": "low",
+            "file": "assets/templates/browserbase/cua/sessionManager.ts",
+            "line": 31,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Update to accept modelApiKey from client request (MODEL_API_KEY) instead of"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 7,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "verifiers/v1/tasksets/nemo_gym/server.py",
+            "line": 3,
+            "cwe": "CWE-1104",
+            "snippet": "# dependencies = [\"nemo-gym==0.4.0\"]"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/mcp/launch.py",
+            "line": 150,
+            "cwe": "CWE-1104",
+            "snippet": "\"wheel==0.48.0\","
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/utils/launch.py",
+            "line": 29,
+            "cwe": "CWE-1104",
+            "snippet": "'# dependencies = [\"openai\", \"mcp==2.0.0\", \"httpx\", \"httpx2\", \"tenacity\", \"certifi\"]\\n'"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/mini_swe_agent/program.py",
+            "line": 3,
+            "cwe": "CWE-1104",
+            "snippet": "# dependencies = [\"mini-swe-agent=={version}\", \"litellm[proxy]==1.102.0\"]"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/browser_use/program.py",
+            "line": 4,
+            "cwe": "CWE-1104",
+            "snippet": "#     \"browser-harness==0.1.13\","
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/acp/runner.py",
+            "line": 3,
+            "cwe": "CWE-1104",
+            "snippet": "# dependencies = [\"agent-client-protocol==0.12.1\", \"httpx\"]"
+          },
+          {
+            "severity": "low",
+            "file": "environments/compact/compact/program.py",
+            "line": 3,
+            "cwe": "CWE-1104",
+            "snippet": "# dependencies = [\"openai\", \"mcp==2.0.0\", \"httpx2\"]"
+          }
+        ]
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 13,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "verifiers/v1/tasksets/nemo_gym/taskset.py",
+            "line": 149,
+            "cwe": "CWE-319",
+            "snippet": "resources_url = f\"http://127.0.0.1:{port}\""
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/runtimes/base.py",
+            "line": 436,
+            "cwe": "CWE-319",
+            "snippet": "return f\"http://127.0.0.1:{port}\""
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/runtimes/docker/egress.py",
+            "line": 368,
+            "cwe": "CWE-319",
+            "snippet": "f\"http://{callback.host_alias}:{self.port}\".lower().encode(): f\"{scheme}://{callback.authority}\".encode()"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/runtimes/docker/__init__.py",
+            "line": 309,
+            "cwe": "CWE-319",
+            "snippet": "self._service_url = f\"http://127.0.0.1:{host_port}\""
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/mcp/launch.py",
+            "line": 356,
+            "cwe": "CWE-319",
+            "snippet": "[python, \"-c\", _PROBE, f\"http://127.0.0.1:{port}/mcp\"], {}"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/interception/server.py",
+            "line": 450,
+            "cwe": "CWE-319",
+            "snippet": "logger.info(\"interception up: url=http://%s:%d\", self.host, self.port)"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/interception/tunnel/custom.py",
+            "line": 4,
+            "cwe": "CWE-319",
+            "snippet": "`http://<host>:<port>` on a reachable host.\"\"\""
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/node.py",
+            "line": 32,
+            "cwe": "CWE-319",
+            "snippet": "mirror=http://deb.debian.org/debian"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/openclaw/harness.py",
+            "line": 92,
+            "cwe": "CWE-319",
+            "snippet": "while ! curl -fsS \"http://127.0.0.1:$port/readyz\" >/dev/null 2>&1; do"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/browser_use/program.py",
+            "line": 145,
+            "cwe": "CWE-319",
+            "snippet": "endpoint = f\"http://127.0.0.1:{match.group(1)}\""
+          },
+          {
+            "severity": "low",
+            "file": "tests/v1/test_delivery_behaviors.py",
+            "line": 63,
+            "cwe": "CWE-319",
+            "snippet": "scenario.endpoint = f\"http://127.0.0.1:{sock.getsockname()[1]}\""
+          },
+          {
+            "severity": "high",
+            "file": "scripts/install.sh",
+            "line": 63,
+            "cwe": "CWE-494",
+            "snippet": "curl -LsSf https://astral.sh/uv/install.sh | sh"
+          },
+          {
+            "severity": "low",
+            "file": "assets/templates/browserbase/cua/index.ts",
+            "line": 68,
+            "cwe": "CWE-319",
+            "snippet": "\u2551  Server running at http://${HOST}:${PORT}                     \u2551"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 45,
+    "files_with_findings": 45,
+    "severity": {
+      "high": 5,
+      "medium": 3,
+      "low": 37
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 37,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harness.py",
+            "line": 41,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT: ClassVar[bool] = False"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/rollout.py",
+            "line": 327,
+            "cwe": "CWE-1427",
+            "snippet": "system_prompt = harness_data.system_prompt"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/task.py",
+            "line": 95,
+            "cwe": "CWE-1427",
+            "snippet": "system_prompt: str | None = None"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/taskset.py",
+            "line": 63,
+            "cwe": "CWE-1427",
+            "snippet": "self.system_prompt = override.read_text() if override is not None else None"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/tasksets/textarena/taskset.py",
+            "line": 26,
+            "cwe": "CWE-1427",
+            "snippet": "SYSTEM_PROMPT = ("
+          },
+          {
+            "severity": "medium",
+            "file": "verifiers/v1/runtimes/e2b.py",
+            "line": 381,
+            "cwe": "CWE-1336",
+            "snippet": "template = Template().from_image(self.config.image)"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/utils/launch.py",
+            "line": 44,
+            "cwe": "CWE-1427",
+            "snippet": "system_prompt: str | None,"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/terminus_2/harness.py",
+            "line": 21,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = True"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/terminus_2/program.py",
+            "line": 74,
+            "cwe": "CWE-1427",
+            "snippet": "if system_prompt:"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/rlm/harness.py",
+            "line": 117,
+            "cwe": "CWE-1427",
+            "snippet": "append_to_system_prompt: str | None = None"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/prime_agent/harness.py",
+            "line": 98,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = True"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/pi/harness.py",
+            "line": 61,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = True"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/openclaw/harness.py",
+            "line": 126,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = True"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/null/harness.py",
+            "line": 18,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = True"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/mini_swe_agent/harness.py",
+            "line": 19,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = False"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/kimi_code/harness.py",
+            "line": 50,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = True"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/hermes_agent/harness.py",
+            "line": 36,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = True"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/codex/harness.py",
+            "line": 58,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = False  # TODO"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/claude_code/harness.py",
+            "line": 38,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = True"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/browser_use/harness.py",
+            "line": 22,
+            "cwe": "CWE-1427",
+            "snippet": "BROWSER_SYSTEM_PROMPT = \"\"\"You are a browser automation agent. Your `browser` tool executes Python code that controls a real Chromium over CDP through browser-harness; its helpers "
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/harnesses/bash/harness.py",
+            "line": 19,
+            "cwe": "CWE-1427",
+            "snippet": "BASH_SYSTEM_PROMPT = ("
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/gepa/adapter.py",
+            "line": 61,
+            "cwe": "CWE-1427",
+            "snippet": "system_prompt = candidate.get(\"system_prompt\", \"\")"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/envs/user_sim/env.py",
+            "line": 63,
+            "cwe": "CWE-1427",
+            "snippet": "system_prompt=self.config.persona.replace("
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/configs/taskset.py",
+            "line": 18,
+            "cwe": "CWE-1427",
+            "snippet": "system_prompt: Path | None = None"
+          },
+          {
+            "severity": "low",
+            "file": "verifiers/v1/cli/init.py",
+            "line": 147,
+            "cwe": "CWE-1427",
+            "snippet": "APPENDS_SYSTEM_PROMPT = True"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 5,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "verifiers/v1/interception/server.py",
+            "line": 6,
+            "cwe": "CWE-798",
+            "snippet": "`OPENAI_BASE_URL`/`OPENAI_API_KEY` so the program's SDK talks to us. Both non-streaming and"
+          },
+          {
+            "severity": "high",
+            "file": "tests/v1/test_envs.py",
+            "line": 54,
+            "cwe": "CWE-798",
+            "snippet": "elif os.getenv(\"OPENAI_API_KEY\"):"
+          },
+          {
+            "severity": "high",
+            "file": "environments/compact/compact/harness.py",
+            "line": 49,
+            "cwe": "CWE-798",
+            "snippet": "\"OPENAI_API_KEY\": secret,"
+          },
+          {
+            "severity": "high",
+            "file": "environments/compact/compact/program.py",
+            "line": 56,
+            "cwe": "CWE-798",
+            "snippet": "# base_url + api_key come from OPENAI_BASE_URL / OPENAI_API_KEY."
+          },
+          {
+            "severity": "high",
+            "file": "assets/templates/browserbase/cua/sessionManager.ts",
+            "line": 32,
+            "cwe": "CWE-798",
+            "snippet": "// hardcoding OPENAI_API_KEY. This will allow using different model providers."
+          }
+        ]
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "verifiers/v1/gepa/runner.py",
+            "line": 121,
+            "cwe": "CWE-200",
+            "snippet": "logger.info(\"best system prompt: %s\", best_path)"
+          },
+          {
+            "severity": "medium",
+            "file": "verifiers/v1/cli/gepa.py",
+            "line": 105,
+            "cwe": "CWE-200",
+            "snippet": "print(f\"best system prompt:\\n{result.best_candidate.get('system_prompt', '')}\")"
+          }
+        ]
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "environments/wiki_search/wiki_search/servers/wiki.py",
+            "line": 7,
+            "cwe": "CWE-",
+            "snippet": "\"\"\"Read-only search/view/read over the wiki corpus. The corpus + chroma index (expensive) are"
+          }
+        ]
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:bb2625ae-4e8c-52c7-bf66-5b86908f127b",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T06:54:35Z",
+      "component": {
+        "type": "application",
+        "name": "EVALS",
+        "version": "83b357604d34",
+        "bom-ref": "pkg:generic/anticloud/EVALS@83b357604d34",
+        "purl": "pkg:generic/anticloud/EVALS@83b357604d34",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": ""
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "anthropic",
+        "version": ">=1.0.0",
+        "purl": "pkg:pypi/anthropic@1.0.0",
+        "bom-ref": "pypi/anthropic@>=1.0.0"
+      },
+      {
+        "type": "library",
+        "name": "numpy",
+        "version": ">=2.1.0",
+        "purl": "pkg:pypi/numpy@2.1.0",
+        "bom-ref": "pypi/numpy@>=2.1.0"
+      },
+      {
+        "type": "library",
+        "name": "math-verify",
+        "version": ">=0.8.0",
+        "purl": "pkg:pypi/math-verify@0.8.0",
+        "bom-ref": "pypi/math-verify@>=0.8.0"
+      },
+      {
+        "type": "library",
+        "name": "openai",
+        "version": ">=2.54.0",
+        "purl": "pkg:pypi/openai@2.54.0",
+        "bom-ref": "pypi/openai@>=2.54.0"
+      },
+      {
+        "type": "library",
+        "name": "prime-tunnel",
+        "version": ">=0.1.8",
+        "purl": "pkg:pypi/prime-tunnel@0.1.8",
+        "bom-ref": "pypi/prime-tunnel@>=0.1.8"
+      },
+      {
+        "type": "library",
+        "name": "prime-sandboxes",
+        "version": ">=0.4.1",
+        "purl": "pkg:pypi/prime-sandboxes@0.4.1",
+        "bom-ref": "pypi/prime-sandboxes@>=0.4.1"
+      },
+      {
+        "type": "library",
+        "name": "prime-runs",
+        "version": ">=0.1.3",
+        "purl": "pkg:pypi/prime-runs@0.1.3",
+        "bom-ref": "pypi/prime-runs@>=0.1.3"
+      },
+      {
+        "type": "library",
+        "name": "pydantic",
+        "version": ">=2.12.3",
+        "purl": "pkg:pypi/pydantic@2.12.3",
+        "bom-ref": "pypi/pydantic@>=2.12.3"
+      },
+      {
+        "type": "library",
+        "name": "rich",
+        "version": ">=11.0.0",
+        "purl": "pkg:pypi/rich@11.0.0",
+        "bom-ref": "pypi/rich@>=11.0.0"
+      },
+      {
+        "type": "library",
+        "name": "tenacity",
+        "version": ">=8.5.0",
+        "purl": "pkg:pypi/tenacity@8.5.0",
+        "bom-ref": "pypi/tenacity@>=8.5.0"
+      },
+      {
+        "type": "library",
+        "name": "gepa",
+        "version": ">=0.0.6",
+        "purl": "pkg:pypi/gepa@0.0.6",
+        "bom-ref": "pypi/gepa@>=0.0.6"
+      },
+      {
+        "type": "library",
+        "name": "pyzmq",
+        "version": ">=27.1.0",
+        "purl": "pkg:pypi/pyzmq@27.1.0",
+        "bom-ref": "pypi/pyzmq@>=27.1.0"
+      },
+      {
+        "type": "library",
+        "name": "msgpack",
+        "version": ">=1.1.2",
+        "purl": "pkg:pypi/msgpack@1.1.2",
+        "bom-ref": "pypi/msgpack@>=1.1.2"
+      },
+      {
+        "type": "library",
+        "name": "httpx",
+        "version": ">=0.27.0",
+        "purl": "pkg:pypi/httpx@0.27.0",
+        "bom-ref": "pypi/httpx@>=0.27.0"
+      },
+      {
+        "type": "library",
+        "name": "httpx2",
+        "version": ">=2.12.0",
+        "purl": "pkg:pypi/httpx2@2.12.0",
+        "bom-ref": "pypi/httpx2@>=2.12.0"
+      },
+      {
+        "type": "library",
+        "name": "h11",
+        "version": ">=0.16.0",
+        "purl": "pkg:pypi/h11@0.16.0",
+        "bom-ref": "pypi/h11@>=0.16.0"
+      },
+      {
+        "type": "library",
+        "name": "uvicorn",
+        "version": ">=0.52.0",
+        "purl": "pkg:pypi/uvicorn@0.52.0",
+        "bom-ref": "pypi/uvicorn@>=0.52.0"
+      },
+      {
+        "type": "library",
+        "name": "aiohttp",
+        "version": ">=3.14.1",
+        "purl": "pkg:pypi/aiohttp@3.14.1",
+        "bom-ref": "pypi/aiohttp@>=3.14.1"
+      },
+      {
+        "type": "library",
+        "name": "verifiers",
+        "version": "unspecified",
+        "purl": "pkg:pypi/verifiers",
+        "bom-ref": "pypi/verifiers@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "chromadb",
+        "version": ">=0.4.13",
+        "purl": "pkg:pypi/chromadb@0.4.13",
+        "bom-ref": "pypi/chromadb@>=0.4.13"
+      },
+      {
+        "type": "library",
+        "name": "datasets",
+        "version": "unspecified",
+        "purl": "pkg:pypi/datasets",
+        "bom-ref": "pypi/datasets@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pillow",
+        "version": ">=12.3.0",
+        "purl": "pkg:pypi/pillow@12.3.0",
+        "bom-ref": "pypi/pillow@>=12.3.0"
+      },
+      {
+        "type": "library",
+        "name": "@browserbasehq/stagehand",
+        "version": "^3.0.5",
+        "purl": "pkg:npm/@browserbasehq/stagehand@^3.0.5",
+        "bom-ref": "npm/@browserbasehq/stagehand@^3.0.5"
+      },
+      {
+        "type": "library",
+        "name": "fastify",
+        "version": "^5.0.0",
+        "purl": "pkg:npm/fastify@^5.0.0",
+        "bom-ref": "npm/fastify@^5.0.0"
+      },
+      {
+        "type": "library",
+        "name": "dotenv",
+        "version": "^16.4.5",
+        "purl": "pkg:npm/dotenv@^16.4.5",
+        "bom-ref": "npm/dotenv@^16.4.5"
+      },
+      {
+        "type": "library",
+        "name": "deepmerge",
+        "version": "^4.3.1",
+        "purl": "pkg:npm/deepmerge@^4.3.1",
+        "bom-ref": "npm/deepmerge@^4.3.1"
+      },
+      {
+        "type": "library",
+        "name": "zod",
+        "version": "^3.25.76",
+        "purl": "pkg:npm/zod@^3.25.76",
+        "bom-ref": "npm/zod@^3.25.76"
+      },
+      {
+        "type": "library",
+        "name": "esbuild",
+        "version": "^0.27.2",
+        "purl": "pkg:npm/esbuild@^0.27.2",
+        "bom-ref": "npm/esbuild@^0.27.2"
+      },
+      {
+        "type": "library",
+        "name": "postject",
+        "version": "^1.0.0-alpha.6",
+        "purl": "pkg:npm/postject@^1.0.0-alpha.6",
+        "bom-ref": "npm/postject@^1.0.0-alpha.6"
+      },
+      {
+        "type": "library",
+        "name": "tsx",
+        "version": "^4.10.5",
+        "purl": "pkg:npm/tsx@^4.10.5",
+        "bom-ref": "npm/tsx@^4.10.5"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": "^5.2.2",
+        "purl": "pkg:npm/typescript@^5.2.2",
+        "bom-ref": "npm/typescript@^5.2.2"
+      }
+    ]
+  },
+  "elapsed_seconds": 57.1
+}
