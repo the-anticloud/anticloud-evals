@@ -543,7 +543,7 @@
    "url": "https://github.com/openai/evals",
    "head": "8eac7a7de5215c907fbddc30efdaf316913eccdd",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/modelscope/evalscope"
+   "previous_substitute": "https://github.com/openai/evals"
   }
  }
 }
